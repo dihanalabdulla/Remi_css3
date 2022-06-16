@@ -1,0 +1,259 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&family=Poppins:wght@500&display=swap');
+
+
+/* common styles or utilities */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    border-radius: 5px;
+    width: 1370px;
+    /* background-color: red; */
+}
+
+.nav-mobile {
+    display: none;
+}
+
+/* - - - - - - - - - -  - - - -
+ header styles
+ - - - - - - - - - -  - - - - */
+
+
+#nav-laptop {
+    background-color: slategrey;
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 275px;
+    margin-right: 100px;
+}
+
+.logo img {
+    background-color: rgb(210, 172, 75);
+    height: 100px;
+    width: 100px;
+}
+
+.nav-opt {
+    display: flex;
+    list-style: none;
+    margin-left: 60px;
+    padding-left: 175px;
+}
+
+.nav-opt>li {
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size: 18px;
+    padding-right: 40px;
+}
+
+/* - - - - - - - - - -  - - - -
+team styles
+- - - - - - - - - -  - - - - */
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+
+.title p {
+    margin: 0px;
+}
+
+.title h1 {
+    margin: 10px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+}
+
+.founder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.core-photographer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.photographer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em;
+}
+
+.photographer img {
+    width: 370px;
+
+}
+
+.photographer img:hover {
+    width: 370px;
+    transform: scale(1.1);
+    transition: transform .25s ease-in-out;
+
+}
+
+.photographer-info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info p {
+    font-family: 'Anek Malayalam', sans-serif;
+    margin: 0px;
+}
+
+.name {
+    color: rgb(210, 172, 75);
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size: 24px;
+    margin: 0px;
+    padding-top: 10px;
+
+}
+
+.fa-brands.fa-instagram {
+    background-color: rgb(210, 172, 75);
+    font-size: 2em;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+/* media query */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #nav-laptop {
+        display: none;
+
+    }
+
+    #nav-mobile {
+        display: grid;
+
+    }
+
+    .nav-mobile {
+
+        /* background-color: slategrey; */
+        width: 100%;
+        height: 100px;
+        margin-top: 15px;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .logo {
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-left: 20px;
+        /* margin-right: 100px; */
+    }
+
+    .logo img {
+        background-color: rgb(210, 172, 75);
+
+    }
+
+    .menu {
+        padding-left: 140px;
+
+    }
+
+    .title h1 {
+        color: rgb(210, 172, 75);
+        padding-top: .5em;
+        margin-bottom: 0px;
+    }
+
+
+    .founder {
+
+        flex-direction: column;
+    }
+
+    .core-photographer {
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .photographer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 30px;
+
+    }
+
+    .name {
+        color: rgb(210, 172, 75);
+    }
+
+    .photographer-info {
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .fa-brands.fa-instagram {
+        background-color: rgb(210, 172, 75);
+        font-size: 2em;
+        margin-top: 20px;
+        padding: 12px;
+        border-radius: 10px;
+    }
+
+    .list {
+        display: none;
+    }
+}
