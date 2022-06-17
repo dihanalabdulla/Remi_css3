@@ -146,6 +146,7 @@ team styles
 }
 
 .fa-brands.fa-instagram {
+    color: white;
     background-color: rgb(210, 172, 75);
     font-size: 2em;
     margin-top: 20px;
@@ -254,6 +255,7 @@ team styles
     }
 
     .fa-brands.fa-instagram {
+        color: white;
         background-color: rgb(210, 172, 75);
         font-size: 2em;
         margin-top: 20px;

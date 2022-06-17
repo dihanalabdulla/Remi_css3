@@ -1,0 +1,70 @@
+/*--------------------------------
+ journey title-styles 
+ ---------------------------------*/
+
+.five-years-journey-sec {
+    /* width: 100%; */
+    background-color: slategrey;
+
+}
+
+.journey-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#line01 {
+    width: 400px;
+    height: 40px;
+    opacity: 70%;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+#line02 {
+    width: 400px;
+    height: 40px;
+    opacity: 70%;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+#five-years-j {
+    font-size: 24px;
+}
+
+/*--------------------------------
+ journey photo-styles 
+ ---------------------------------*/
+.journey-photos {
+    width: 1080px;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients-photo {
+    /* width: 1980px; */
+    display: flex;
+    height: 400px;
+    /* overflow-y: hidden; */
+
+    overflow-x: scroll;
+    overflow-wrap: break-word;
+    /* overflow-x: hidden; */
+
+}
+
+.clients-photo img {
+    width: 540px;
+    height: 360px;
+    /* border-radius: 5px; */
+    padding: 5px;
+}
+
+.clients-photo img:hover {
+    /* border: 3px solid black; */
+    padding: 0px;
+    border-radius: 10px;
+    transition: .15s ease-in-out
+}
