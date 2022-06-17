@@ -25,7 +25,7 @@ main {
 
 
 #nav-laptop {
-    background-color: slategrey;
+    /* background-color: slategrey; */
     width: 100%;
     height: 100px;
     margin-top: 15px;
@@ -66,6 +66,7 @@ team styles
 
 
 .title {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,6 +80,8 @@ team styles
 }
 
 .title h1 {
+    color: rgb(210, 172, 75);
+    font-size: 2em;
     margin: 10px;
 }
 
@@ -210,10 +213,14 @@ team styles
         margin-bottom: 0px;
     }
 
+    .photographers {
+        /* margin-left: 50px; */
+    }
 
     .founder {
 
         flex-direction: column;
+        padding-left: 30px;
     }
 
     .core-photographer {
@@ -221,6 +228,7 @@ team styles
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-left: 30px;
     }
 
 
@@ -229,7 +237,7 @@ team styles
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-bottom: 30px;
+        margin-left: 40px;
 
     }
 
