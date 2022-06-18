@@ -65,21 +65,22 @@ team styles
 - - - - - - - - - -  - - - - */
 
 
-.title {
-
+.nav-title {
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* margin-left: 60px; */
     margin-top: 100px;
     margin-bottom: 30px;
 
 }
 
-.title p {
+.nav-title p {
     margin: 0px;
 }
 
-.title h1 {
+.nav-title h1 {
     color: rgb(210, 172, 75);
     font-size: 2em;
     margin: 10px;
@@ -164,7 +165,7 @@ team styles
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0px;
+        padding-top: 20px;
         margin: 0px;
     }
 
@@ -204,11 +205,23 @@ team styles
     }
 
     .menu {
-        padding-left: 140px;
+        font-size: 2em;
+        padding-left: 160px;
 
     }
 
-    .title h1 {
+    .nav-title {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 80px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+
+    }
+
+    .nav-title h1 {
         color: rgb(210, 172, 75);
         padding-top: .5em;
         margin-bottom: 0px;
