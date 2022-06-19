@@ -9,8 +9,9 @@ main {
     align-items: center;
 }
 
-.container {
+.header-container {
     border-radius: 5px;
+    /* width: 100%; */
     width: 1370px;
     /* background-color: red; */
 }
@@ -155,9 +156,9 @@ team styles
     border-radius: 10px;
 }
 
-/* media query */
+/* media query -mobile  */
 @media only screen and (max-width:688px) {
-    .container {
+    .header-container {
         width: 100%;
     }
 
